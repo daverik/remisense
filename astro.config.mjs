@@ -6,7 +6,6 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   site: "https://daverik.github.io",
   base: "/remisense",
-  outDir: "./docs",
   vite: {
     plugins: [tailwindcss()],
   },
